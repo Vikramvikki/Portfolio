@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.login form</title>
+        <link rel="stylesheet" href="main1.css">
+    </head>
+    <body>
+        <!------------login form--------->
+        <div class="loginform">
+           
+            <div class="namelogin">
+                <div id="btn1"></div>
+                <h1 class="login" onclick="logone()">login</h1>
+                <h1 class="register" onclick="regone()">Register</h1>
+            </div>
+            <div id="logone" class="details">
+                 <input class="data" type="text" placeholder="First Name" required>
+                 <input class="data" type="text" placeholder="Last Name" required>
+                 <input class="data" type="email" placeholder="abc@gmail.com" required>
+                 <input class="data" type="password" placeholder="Password" required>
+                 <input class="data" type="password" placeholder=" Conform Password" required>
+                <p> <input class="data1" type="checkbox" class="checkbox" required></p>
+                 i agree with this terms and conditions
+                <div class="logninbox">
+                   <a href="sample1.html" ><button class="loginboxsize">Register</button></a>
+                   <p>v <a href="#">CLICK</a>here</p>
+                </div>
+            </div>
+            <div id="regone" class="details">
+                <input class="data" type="text" placeholder="Enter Name" required>
+                
+                <input class="data" type="email" placeholder="abc@gmail.com" required>
+                <input class="data" type="password" placeholder="Password" required>
+                <input class="data1" type="checkbox" class="checkbox" required>
+                Remember the Password
+               <div class="logninbox">
+                 <a href="sample2.html"> <button class="loginboxsize">Login</button></a>
+                  <p>don't have an account then register <a href="#">CLICK</a>here</p>
+               </div>
+           </div>
+        </div>
+<script>
+    var x=document.getElementById("logone");
+    var y=document.getElementById("regone");
+    var z=document.getElementById("btn1");
+    
+    function regone(){
+        x.style.left="10px"
+        y.style.left="-350px"
+        z.style.left="110px"
+    }
+    function logone(){
+        x.style.left="520px"
+        y.style.left="0px"
+        z.style.left="0px"
+    }
+    
+   
+</script>
+    
+
+    </body>
+</html>
